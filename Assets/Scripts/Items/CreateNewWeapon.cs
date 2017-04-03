@@ -31,7 +31,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 2;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = Effect Here
 	}
@@ -48,7 +48,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 7;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = Effect Here
 	}
@@ -65,7 +65,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 18;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = NEEDS FIRE EFFECT
 	}
@@ -82,7 +82,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 26;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = Effect Here
 	}
@@ -99,7 +99,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 34;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = NEEDS CONFUSE EFFECT
 	}
@@ -110,13 +110,13 @@ public class CreateNewWeapon : MonoBehaviour
 		//Assign Name
 		newWeapon.ItemName = "Fairy Sword";
 		//Description
-		newWeapon.ItemDescription = "A magical sword that grants Dragoons more power per strike.";
+		newWeapon.ItemDescription = "A magical sword that grants Dragoons more spirit per strike.";
 		//ID
 		newWeapon.ItemID = 6;
 		//Stats
 		newWeapon.ATK = 39;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = 50% SP Generation Effect
 	}
@@ -133,7 +133,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 44;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = Effect Here
 	}
@@ -150,7 +150,7 @@ public class CreateNewWeapon : MonoBehaviour
 		//Stats
 		newWeapon.ATK = 75;
 		//Type
-		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.HEAVYSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = 10% Health loss on turn
 	}
@@ -301,13 +301,150 @@ public class CreateNewWeapon : MonoBehaviour
 		//Assign Name
 		newWeapon.ItemName = "Sparkle Arrow";
 		//Description
-		newWeapon.ItemDescription = "A small magical bow that fires Light Arrows.";
+		newWeapon.ItemDescription = "An arrow imbued with light magic.";
 		//ID
 		newWeapon.ItemID = 17;
 		//Stats
 		newWeapon.ATK = 9;
 		//Type
 		newWeapon.WeaponType = BaseWeapon.WeaponTypes.BOW;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = Effect Here
+	}
+
+	public void CreateWeaponLongBow ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Long Bow";
+		//Description
+		newWeapon.ItemDescription = "A longer bow meant for heavier shots.";
+		//ID
+		newWeapon.ItemID = 18;
+		//Stats
+		newWeapon.ATK = 18;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.BOW;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = 10% Physical damage increase
+	}
+
+	public void CreateWeaponBemusingArrow ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Bemusing Arrow";
+		//Description
+		newWeapon.ItemDescription = "An arrow made to confuse.";
+		//ID
+		newWeapon.ItemID = 19;
+		//Stats
+		newWeapon.ATK = 24;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.BOW;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = Chance to Confuse
+	}
+
+	public void CreateWeaponVirulentArrow ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Virulent Arrow";
+		//Description
+		newWeapon.ItemDescription = "An arrow designed to fire arrows dipped in poison.";
+		//ID
+		newWeapon.ItemID = 20;
+		//Stats
+		newWeapon.ATK = 30;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.BOW;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = Chance to Poison
+	}
+
+	public void CreateWeaponArrowOfForce ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Arrow of Force";
+		//Description
+		newWeapon.ItemDescription = "A magical arrow that increases a dragoons spirit per shot.";
+		//ID
+		newWeapon.ItemID = 21;
+		//Stats
+		newWeapon.ATK = 40;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.BOW;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = 50% Spirit Generation
+	}
+
+	public void CreateWeaponDetonateArrow ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Detonate Arrow";
+		//Description
+		newWeapon.ItemDescription = "An arrow designed to explode to hit all enemies.";
+		//ID
+		newWeapon.ItemID = 22;
+		//Stats
+		newWeapon.ATK = 50;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.BOW;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = All enemy attack
+	}
+
+	//Rose's Weapons
+	public void CreateWeaponRapier ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Rapier";
+		//Description
+		newWeapon.ItemDescription = "A thin, light, sharp-pointed sword made for thrusting attacks.";
+		//ID
+		newWeapon.ItemID = 23;
+		//Stats
+		newWeapon.ATK = 13;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = Effect Here
+	}
+
+	public void CreateWeaponDemonStilletto ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Demon Stilletto";
+		//Description
+		newWeapon.ItemDescription = "A thin, light, sharp-pointed sword made for thrusting attacks. Has a chance to cause fear.";
+		//ID
+		newWeapon.ItemID = 24;
+		//Stats
+		newWeapon.ATK = 18;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
+		//Spell EffectID
+		//newWeapon.SpellEffectID = Effect Here
+	}
+
+	public void CreateWeaponShadowCutter ()
+	{
+		newWeapon = new BaseWeapon ();
+		//Assign Name
+		newWeapon.ItemName = "Shadow Cutter";
+		//Description
+		newWeapon.ItemDescription = "An ancient rapier that causes Dark Damage.";
+		//ID
+		newWeapon.ItemID = 25;
+		//Stats
+		newWeapon.ATK = 24;
+		//Type
+		newWeapon.WeaponType = BaseWeapon.WeaponTypes.LIGHTSWORD;
 		//Spell EffectID
 		//newWeapon.SpellEffectID = Effect Here
 	}
