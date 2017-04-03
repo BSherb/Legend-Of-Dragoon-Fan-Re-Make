@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoDRM", "Assembly-CSharp-firstpass.csproj", "{893212EB-E348-DE19-7A8B-744D3F57CA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoDRM", "Assembly-CSharp.csproj", "{41C1EC26-437B-A4AC-41EB-D5567030A281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoDRM", "Assembly-CSharp-Editor-firstpass.csproj", "{065AC322-6682-03FE-3A9B-A9B0A9C8961B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{893212EB-E348-DE19-7A8B-744D3F57CA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893212EB-E348-DE19-7A8B-744D3F57CA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893212EB-E348-DE19-7A8B-744D3F57CA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893212EB-E348-DE19-7A8B-744D3F57CA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C1EC26-437B-A4AC-41EB-D5567030A281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C1EC26-437B-A4AC-41EB-D5567030A281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C1EC26-437B-A4AC-41EB-D5567030A281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C1EC26-437B-A4AC-41EB-D5567030A281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065AC322-6682-03FE-3A9B-A9B0A9C8961B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065AC322-6682-03FE-3A9B-A9B0A9C8961B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065AC322-6682-03FE-3A9B-A9B0A9C8961B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065AC322-6682-03FE-3A9B-A9B0A9C8961B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
