@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseMagic : BaseItem
+public class BaseMagic : BaseStatItem
 {
 	private int spellEffectID;
 
