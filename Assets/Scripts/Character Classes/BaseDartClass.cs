@@ -1,7 +1,9 @@
 ﻿public class BaseDartClass : BaseCharacterClass 
 {
 
-	public BaseDartClass() {
+	public BaseDartClass() 
+	{
+		CharacterName = "Dart";
 		CharacterClassName = "Dart";
 		CharacterClassDescription = "Main Character";
 

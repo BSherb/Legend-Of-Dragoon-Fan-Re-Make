@@ -1,12 +1,12 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseCharacterClass
+public class BasePlayer
 {
-	private string characterName;
-	private string characterClassName;
-	private string characterClassDescription;
-	//Stats
+	private string playerName;
+	private int playerLevel;
+	private BaseCharacterClass playerClass;
 	private float hp;
 	private float atk;
 	private float def;
@@ -14,22 +14,22 @@ public class BaseCharacterClass
 	private float mdef;
 	private float speed;
 
-	public string CharacterName
+	public string PlayerName
 	{
-		get { return characterName; }
-		set { characterName = value; }
- 	}
-
-	public string CharacterClassName
-	{
-		get { return characterClassName; }
-		set { characterClassName = value; }
+		get { return playerName; }
+		set { playerName = value; }
 	}
 
-	public string CharacterClassDescription
+	public int PlayerLevel
 	{
-		get { return characterClassDescription; }
-		set { characterClassDescription = value; }
+		get { return playerLevel; }
+		set { playerLevel = value; }
+	}
+
+	public BaseCharacterClass PlayerClass
+	{
+		get { return playerClass; }
+		set { playerClass = value; }
 	}
 
 	public float HP
@@ -67,4 +67,5 @@ public class BaseCharacterClass
 		get { return speed; }
 		set { speed = value; }
 	}
+
 }
